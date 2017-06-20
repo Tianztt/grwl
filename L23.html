@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="div">
+    <button type="button" id="btn1" onclick="demo(this)">按钮</button>
+</div>
+<!--<script>-->
+<!--var btn1 = document.getElementById("btn1");-->
+<!--btn1.addEventListener("click", demo1);-->
+<!--btn1.addEventListener("click", demo2);-->
+<!--btn1.addEventListener("click",demo3);-->
+<!--btn1.removeEventListener("click", demo1);-->
+<!--btn1.removeEventListener("click", demo2);-->
+
+<!--function demo1() {-->
+<!--alert("hello,demo 1");-->
+<!--}-->
+<!--function demo2() {-->
+<!--var message = confirm("是否显示demo2？");-->
+<!--if (message == true) {-->
+<!--alert("我是demo2");-->
+<!--} else {-->
+<!--alert("您选择了取消");-->
+<!--}-->
+<!--}-->
+<!--function demo3(){-->
+<!--var myName=prompt("请输入您的姓名");-->
+<!--console.log(myName);-->
+<!--if(myName){-->
+<!--alert("hello，"+myName+"!");-->
+<!--}else{-->
+<!--alert("hello,my friend!")-->
+<!--}-->
+<!--}-->
+<!--</script>-->
+
+<!--<script>-->
+    <!--var btn1 = document.getElementById("btn1");-->
+    <!--btn1.onclick = demo;-->
+    <!--function demo() {-->
+        <!--alert("a");-->
+    <!--}-->
+<!--</script>-->
+
+<!--<script>-->
+    <!--var btn1 = document.getElementById("btn1");-->
+    <!--btn1.onclick=function demo(){-->
+        <!--alert("a");-->
+    <!--};-->
+<!--</script>-->
+
+<!--<script>-->
+    <!--var btn1=document.getElementById("btn1");-->
+    <!--if(btn1.addEventListener){-->
+        <!--btn1.addEventListener("click",demo);-->
+    <!--}else if(btn1.attachEvent){-->
+        <!--btn1.attachEvent("click",demo);-->
+    <!--}else {-->
+        <!--btn1.onclick=demo;-->
+    <!--}-->
+    <!--function demo(){-->
+        <!--alert("hello")-->
+    <!--}-->
+<!--</script>-->
+
+<script>
+    document.getElementById("div").addEventListener("click",function(){
+        alert("div");
+    })
+    var btn=document.getElementById("btn1");
+    btn.addEventListener("click",demo());
+    function demo (event){
+        alert("btn");
+        event.stopPropagation();
+    }
+</script>
+
+</body>
+</html>
