@@ -1,3 +1,4 @@
+/*模块标题*/
 .index-conright h3 {
     height: 59px;
     line-height: 60px;
@@ -24,8 +25,24 @@
     height: 23px;
     background-position:0 bottom;
 }
+/*模块标题结束*/
 
+/*我的课程表*/
+.contmykb{
+    margin-bottom: 10px;
+}
 
+.contmykb-cont{
+    padding: 20px 20px 30px;
+}
+
+.contmykb-cont table{
+    width: 100%;
+    border: 5px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+/*我的课程*/
 .contmykc{
-    margin-top: 10px;
+
 }
