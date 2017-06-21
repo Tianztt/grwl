@@ -40,9 +40,169 @@
     width: 100%;
     border: 5px solid #f2f2f2;
     border-radius: 5px;
+    border-collapse: inherit;
 }
 
-/*我的课程*/
-.contmykc{
+/*表格宽度及内边框*/
+.w80{
+    width: 80px;
+    border-bottom: 1px solid #f2f2f2;
+}
 
+.w135{
+    width: 135px;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.contmykb-cont th{
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.contmykb-cont th.active{
+    color: #ff4f3f;
+}
+
+.contmykb-cont th span{
+    display: block;
+}
+
+.contmykb-cont tr td:first-child{
+    padding: 0;
+    text-align: center;
+    cursor: default;
+}
+
+.contmykb-cont td{
+    padding: 5px 0 5px 15px;
+}
+
+.contmykb-cont td span{
+    color: #999;
+}
+
+.contmykb-cont td strong{
+    display: block;
+    font-weight: bold;
+}
+
+.contmykb-cont th{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+
+/*我的课程*/
+.contmykc-cont{
+    padding-bottom: 10px;
+}
+.contmykc-btn{
+    padding: 10px 25px;
+}
+
+.contmykc-cont .contmykc-btn a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-bg454e5d{
+    background-color: #454e5d;
+}
+
+.btn-bgff4f3f{
+    background-color: #ff4f3f;
+}
+
+.contmykc-slider{
+    padding: 0 20px;
+    position: relative;
+}
+
+.contmykc-slider>span{
+    width: 46px;
+    height: 48px;
+    background: url("../image/icon-slider.png") no-repeat;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    top:60px;
+}
+
+.contmykc-slider .mykciconleft{
+    left: 0;
+    background-position: 0 bottom;
+}
+
+.contmykc-slider .mykciconright{
+    right: 0;
+    background-position: 0 top;
+}
+
+.contmykc-courseitem{
+    height: 234px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #999;
+}
+
+.contmykc-courseitem:hover{
+    border: 1px solid #f2f2f2;
+}
+
+.contmykc-courseitem>a{
+    display: block;
+    width: 180px;
+    height: 130px;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+    border-radius: 3px;
+}
+
+.contmykc-courseitem img{
+    width: 180px;
+}
+
+.contmykc-courseitem strong{
+    color: #4c4c4c;
+}
+
+.icon-sp,.icon-zy,.icon-wj,.icon-wbk{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../image/icon-index4.png") no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.icon-sp{
+    background-position:0 -40px;
+}
+
+.icon-zy{
+    background-position: 0 -20px;
+}
+
+.icon-wbk{
+    background-position: 0 bottom;
+}
+
+.contmykc-morebtn{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.contmykc-morebtn a{
+    color: #999;
+    font-size: 16px;
 }
