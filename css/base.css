@@ -44,7 +44,7 @@ a {
     color: #333;
 }
 
-a:link,a:visited,a:hover,a:active  {
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     outline: none;
     color: #333;
@@ -65,6 +65,7 @@ sub, sup {
 strong {
     font-weight: inherit;
 }
+
 /*重写结束*/
 
 /*背景颜色*/
@@ -77,7 +78,7 @@ strong {
     background-color: #fff;
 }
 
-#index-header {
+.index-header {
     height: 108px;
     border-bottom: 2px solid #ff4f3f;
 }
@@ -93,23 +94,23 @@ strong {
     background: url("../image/logo.png") no-repeat 22px center;
 }
 
-.header-topnav{
+.header-topnav {
     height: 108px;
     line-height: 108px;
     font-size: 16px;
     color: #454e5d;
 }
 
-.header-topnav span{
-    margin:0 5px;
+.header-topnav span {
+    margin: 0 5px;
 }
 
-.topnav-news{
+.topnav-news {
     position: relative;
     margin: 0 8px;
 }
 
-.topnav-news strong{
+.topnav-news strong {
     position: absolute;
     top: -15px;
     right: -17px;
@@ -123,90 +124,93 @@ strong {
     font-size: 14px;
     text-align: center;
 }
+
 /*头部公共样式结束*/
 
 /*底部公共样式*/
-#index-footer{
+.index-footer {
     margin-top: 100px;
     height: 150px;
     background-color: #454e5d;
 }
 
-.index-footer-text{
+.index-footer-text {
     color: #a0a6b1;
     font-size: 16px;
     padding-top: 50px;
 }
 
-#index-footer p{
+.index-footer p {
     margin-top: 10px;
 }
 
-.index-footer-text a{
+.index-footer-text a {
     color: #a0a6b1;
 }
 
-.index-footer-text span{
+.index-footer-text span {
     margin: 0 5px;
 }
+
 /*底部公共样式结束*/
 
 /*左边公共导航部分*/
-#index-content{
+.index-content {
     margin-top: 20px;
 }
-.index-conleft{
+
+.index-conleft {
     background-color: #454e5d;
     border-radius: 5px 5px 0 0;
 }
 
-.contleft-top{
+.contleft-top {
     padding-top: 38px;
 }
 
-.people-info{
+.people-info {
     margin-top: 30px;
     margin-left: 30px;
     font-size: 16px;
     color: #fff;
 }
 
-.people-info strong{
-    color:#999;
+.people-info strong {
+    color: #999;
 }
 
-.icon-xm,.icon-zw,.icon-sj,.icon-n1,.icon-n2,.icon-n3,.icon-n4,.icon-n5,.icon-n6,.icon-n7,.icon-n8{
+.icon-xm, .icon-zw, .icon-sj, .icon-n1, .icon-n2, .icon-n3, .icon-n4, .icon-n5, .icon-n6, .icon-n7, .icon-n8 {
     display: inline-block;
     background-repeat: no-repeat;
 }
 
-.icon-xm,.icon-zw,.icon-sj{
+.icon-xm, .icon-zw, .icon-sj {
     width: 20px;
     margin-right: 10px;
     background: url("../image/icon-index1.png");
     vertical-align: middle;
 }
 
-.icon-xm{
+.icon-xm {
     height: 18px;
     background-position: 1px -21px;
 }
 
-.icon-zw{
+.icon-zw {
     height: 14px;
     background-position: left bottom;
 }
 
-.icon-sj{
+.icon-sj {
     height: 19px;
     background-position: 3px top;
 }
 
-.conleft-nav{
+.conleft-nav {
     margin-top: 30px;
 }
 
-.conleft-nav a{
+.conleft-nav a {
     display: block;
     height: 75px;
     line-height: 75px;
@@ -214,55 +218,66 @@ strong {
     font-size: 20px;
 }
 
-.conleft-nav a.active,.conleft-nav a:hover{
+.conleft-nav > a:active, .conleft-nav > a:hover {
     background-color: #ff4f3f;
     color: #fff;
 }
 
-.icon-n1,.icon-n2,.icon-n3,.icon-n4,.icon-n5,.icon-n6,.icon-n7,.icon-n8{
+#index .a-index, #courseGLBJ .a-courseGLBJ, #LessonStartBK .a-LessonStartBK,
+#plan .a-plan, #reflectIndex .a-reflectIndex, #AdminClass .a-AdminClass {
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px;
+    background-color: #ff4f3f;
+    color: #fff;
+}
+
+.icon-n1, .icon-n2, .icon-n3, .icon-n4, .icon-n5, .icon-n6, .icon-n7, .icon-n8 {
     width: 26px;
     margin-right: 5px;
     background: url("../image/icon-index2.png");
     vertical-align: -4px;
 }
 
-.icon-n1{
+.icon-n1 {
     height: 25px;
     background-position: 0 -141px;
 }
 
-.icon-n2{
+.icon-n2 {
     height: 26px;
     background-position: 0 -91px;
 }
 
-.icon-n3{
+.icon-n3 {
     height: 25px;
     background-position: 0 -116px;
 }
 
-.icon-n4{
+.icon-n4 {
     height: 22px;
     background-position: 0 -68px;
 }
 
-.icon-n5{
+.icon-n5 {
     height: 23px;
     background-position: 0 -22px;
 }
 
-.icon-n6{
-     height: 28px;
-     background-position: 0 bottom;
- }
+.icon-n6 {
+    height: 28px;
+    background-position: 0 bottom;
+}
 
-.icon-n7{
+.icon-n7 {
     height: 24px;
     background-position: 0 -45px;
 }
 
-.icon-n8{
+.icon-n8 {
     height: 22px;
     background-position: 0 top;
 }
+
 /*左边公共部分结束*/

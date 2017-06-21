@@ -1,9 +1,8 @@
 /*模块标题*/
 .index-conright h3 {
-    height: 59px;
+    height: 60px;
     line-height: 60px;
     padding-left: 30px;
-    border-bottom: 1px solid #dadcdf;
     font-size: 20px;
     color: #ff4f3f;
 }
@@ -14,6 +13,17 @@
     display:inline-block;
     vertical-align: middle;
     background: url("../image/icon-index3.png") no-repeat;
+}
+
+.contmykb h3 a{
+    float: right;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.contmykb-cont,.contmykc-cont,.courseGL-tab{
+    border-top: 1px solid #f2f2f2;
 }
 
 .icon-kb{
@@ -205,4 +215,19 @@
 .contmykc-morebtn a{
     color: #999;
     font-size: 16px;
+}
+/*index结束*/
+
+/*coureseGLBJ开始*/
+.courseGL-tab{
+    height: 60px;
+    line-height: 60px;
+}
+
+.courseGL-tab ul{
+    float: left;
+}
+
+.courseGL-tab ul li{
+    display: inline-block;
 }
