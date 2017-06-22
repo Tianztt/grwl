@@ -223,7 +223,7 @@ strong {
     color: #fff;
 }
 
-#index .a-index, #courseGLBJ .a-courseGLBJ, #LessonStartBK .a-LessonStartBK,
+#index .a-index, #courseGL .a-courseGL, #LessonStartBK .a-LessonStartBK,
 #plan .a-plan, #reflectIndex .a-reflectIndex, #AdminClass .a-AdminClass {
     display: block;
     height: 75px;

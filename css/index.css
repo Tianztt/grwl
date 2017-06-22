@@ -7,46 +7,47 @@
     color: #ff4f3f;
 }
 
-.icon-kb,.icon-kc{
+.icon-kb, .icon-kc {
     width: 24px;
     margin-right: 10px;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     background: url("../image/icon-index3.png") no-repeat;
 }
 
-.contmykb h3 a{
+.contmykb h3 a {
     float: right;
     margin-right: 30px;
     font-size: 16px;
     color: #ccc;
 }
 
-.contmykb-cont,.contmykc-cont,.courseGL-tab{
+.contmykb-cont, .contmykc-cont, .courseGL-tab {
     border-top: 1px solid #f2f2f2;
 }
 
-.icon-kb{
+.icon-kb {
     height: 22px;
     background-position: 0 top;
 }
 
-.icon-kc{
+.icon-kc {
     height: 23px;
-    background-position:0 bottom;
+    background-position: 0 bottom;
 }
+
 /*模块标题结束*/
 
 /*我的课程表*/
-.contmykb{
+.contmykb {
     margin-bottom: 10px;
 }
 
-.contmykb-cont{
+.contmykb-cont {
     padding: 20px 20px 30px;
 }
 
-.contmykb-cont table{
+.contmykb-cont table {
     width: 100%;
     border: 5px solid #f2f2f2;
     border-radius: 5px;
@@ -54,122 +55,137 @@
 }
 
 /*表格宽度及内边框*/
-.w80{
+.w80 {
     width: 80px;
     border-bottom: 1px solid #f2f2f2;
 }
 
-.w135{
+.w135 {
     width: 135px;
     border-left: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
 }
 
-.contmykb-cont th{
+.contmykb-cont th {
     height: 55px;
     font-size: 16px;
     text-align: center;
     border-bottom: 1px solid #f2f2f2;
 }
 
-.contmykb-cont th.active{
+.contmykb-cont th.active {
     color: #ff4f3f;
 }
 
-.contmykb-cont th span{
+.contmykb-cont th span {
     display: block;
 }
 
-.contmykb-cont tr td:first-child{
+.contmykb-cont tr td:first-child {
     padding: 0;
     text-align: center;
     cursor: default;
 }
 
-.contmykb-cont td{
+.contmykb-cont td {
     padding: 5px 0 5px 15px;
 }
 
-.contmykb-cont td span{
+.contmykb-cont td span {
     color: #999;
 }
 
-.contmykb-cont td strong{
+.contmykb-cont td strong {
     display: block;
     font-weight: bold;
 }
 
-.contmykb-cont th{
+.contmykb-cont th {
     border-bottom: 1px solid #f2f2f2;
 }
 
-
 /*我的课程*/
-.contmykc-cont{
+.contmykc-cont {
     padding-bottom: 10px;
 }
-.contmykc-btn{
+
+.contmykc-btn-box {
     padding: 10px 25px;
+    overflow: hidden;
 }
 
-.contmykc-cont .contmykc-btn a{
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 16px;
+.contmykc-btn a {
     display: inline-block;
     color: #fff;
     text-align: center;
     border-radius: 2px;
-    vertical-align: middle;
     cursor: pointer;
 }
 
-.btn-bg454e5d{
+.btn-l {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.btn-s {
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.btn-bg454e5d {
     background-color: #454e5d;
+    border-bottom: 2px solid #454edd;
 }
 
-.btn-bgff4f3f{
+.btn-bgff4f3f {
     background-color: #ff4f3f;
+    border-bottom: 2px solid #e23f30;
 }
 
-.contmykc-slider{
+.contmykc-slider {
     padding: 0 20px;
     position: relative;
 }
 
-.contmykc-slider>span{
+.contmykc-slider > span {
     width: 46px;
     height: 48px;
     background: url("../image/icon-slider.png") no-repeat;
     display: inline-block;
     z-index: 1;
     position: absolute;
-    top:60px;
+    top: 60px;
 }
 
-.contmykc-slider .mykciconleft{
+.contmykc-slider .mykciconleft {
     left: 0;
     background-position: 0 bottom;
 }
 
-.contmykc-slider .mykciconright{
+.contmykc-slider .mykciconright {
     right: 0;
     background-position: 0 top;
 }
 
-.contmykc-courseitem{
-    height: 234px;
+.contmykc-courseitem {
+    min-height: 240px;
     border: 1px solid #fff;
     padding: 10px;
     color: #999;
+    line-height: 26px;
 }
 
-.contmykc-courseitem:hover{
+.contmykc-courseitem:hover {
     border: 1px solid #f2f2f2;
 }
 
-.contmykc-courseitem>a{
+.contmykc-courseitem > a {
     display: block;
     width: 180px;
     height: 130px;
@@ -178,15 +194,15 @@
     border-radius: 3px;
 }
 
-.contmykc-courseitem img{
+.contmykc-courseitem img {
     width: 180px;
 }
 
-.contmykc-courseitem strong{
+.contmykc-courseitem strong {
     color: #4c4c4c;
 }
 
-.icon-sp,.icon-zy,.icon-wj,.icon-wbk{
+.icon-sp, .icon-zy, .icon-wj, .icon-wbk {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -195,39 +211,123 @@
     vertical-align: middle;
 }
 
-.icon-sp{
-    background-position:0 -40px;
+.icon-sp {
+    background-position: 0 -40px;
 }
 
-.icon-zy{
+.icon-zy {
     background-position: 0 -20px;
 }
 
-.icon-wbk{
+.icon-wbk {
     background-position: 0 bottom;
 }
 
-.contmykc-morebtn{
-    margin: 10px auto;
+.contmykc-morebtn {
+    margin: 20px auto;
     text-align: center;
 }
 
-.contmykc-morebtn a{
+.contmykc-morebtn a {
     color: #999;
     font-size: 16px;
 }
+
 /*index结束*/
 
 /*coureseGLBJ开始*/
-.courseGL-tab{
+.courseGL-tab {
     height: 60px;
     line-height: 60px;
 }
 
-.courseGL-tab ul{
+.courseGL-tab ul {
     float: left;
 }
 
-.courseGL-tab ul li{
+.courseGL-tab ul li {
     display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.courseGL-tab ul li a {
+    color: #999;
+}
+
+.courseGL-tab ul li a.active, .courseGL-tab ul li a:hover {
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    color: #ff4f3f;
+    border-bottom: 4px solid #ff4f3f;
+}
+
+.coursrGL .contmykc-courseitem {
+    min-height: 280px;
+}
+
+.contmykc-pagenumber {
+    margin: 20px 0;
+    color: #999;
+}
+
+.contmykc-pagenumber a, .contmykc-pagenumber input {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #999;
+    color: #999;
+    margin-right: 10px;
+}
+
+.contmykc-pagenumber a:hover {
+    border: 1px solid #ff4f3f;
+    color: #ff4f3f;
+}
+
+.contmykc-pagenumber a.active {
+    background-color: #ff4f3f;
+    color: #fff;
+    border: 1px solid #ff4f3f;
+}
+
+/*courseGLInfo*/
+.reflect-nav{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+
+.courseGLInfo-content {
+    padding: 25px;
+}
+
+.GLInfo-contimg{
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px #ffe8ef;
+    padding: 10px;
+}
+
+.GLInfo-contimg div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.GLInfo-contimg-left img{
+    width: 490px;
+}
+
+.GLInfo-contimg-right div img{
+    width: 262px;
+}
+
+.GLInfo-contimg-rt{
+    margin-bottom: 40px;
 }
