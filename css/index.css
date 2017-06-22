@@ -22,7 +22,7 @@
     color: #ccc;
 }
 
-.contmykb-cont, .contmykc-cont, .courseGL-tab {
+.contmykb-cont, .contmykc-cont, .courseGL-tab ,.GLInfo-content{
     border-top: 1px solid #f2f2f2;
 }
 
@@ -306,7 +306,7 @@
 }
 
 .courseGLInfo-content {
-    padding: 25px;
+    padding:10px 25px 0 25px;
 }
 
 .GLInfo-contimg{
@@ -330,4 +330,62 @@
 
 .GLInfo-contimg-rt{
     margin-bottom: 40px;
+}
+
+.GLInfo-title{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 50px;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+
+.GLInfo-title a{
+    color: #ccc;
+    font-size: 16px;
+}
+
+.GLInfo-title a strong{
+    font-size: 20px;
+}
+
+.GLInfo-title span{
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    vertical-align: -4px;
+    background-color: #ff4f3f;
+    margin-right: 10px;
+}
+
+.GLInfo-content{
+    padding: 30px 50px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.GLInfo-content span{
+    display: inline-block;
+    float: left;
+    width: 80px;
+    color: #999;
+}
+
+.GLInfo-content strong{
+    display: inline-block;
+    width: 638px;
+}
+
+.btn-kssk{
+    width: 140px;
+    margin-left: 30px;
+}
+
+.btn-kssk i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    background: url("../image/icon-ks.png") no-repeat 0 0;
+    margin-right: 18px;
 }
