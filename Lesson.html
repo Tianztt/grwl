@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>课程管理</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css"/>
 </head>
-<body id="index" class="bg-color">
+<body id="Lesson" class="bg-color">
 <header class="bg-white index-header">
     <div class="container">
         <a href="index.html" class="icon-logo">教师版</a>
@@ -37,10 +37,13 @@
                 <div class="conleft-nav text-center">
                     <a href="index.html" class="a-index"><strong><span class="icon-n1"></span>我的首页</strong></a>
                     <a href="courseGL.html" class="a-courseGL"><strong><span class="icon-n2"></span>课程管理</strong></a>
-                    <a href="Lesson.html" class="a-Lesson"><strong><span class="icon-n3"></span>快捷备课</strong></a>
+                    <a href="Lesson.html" class="a-Lesson"><strong><span
+                            class="icon-n3"></span>快捷备课</strong></a>
                     <a href="plan.html" class="a-plan"><strong><span class="icon-n4"></span>教学计划</strong></a>
-                    <a href="reflectIndex.html" class="a-reflectIndex"><strong><span class="icon-n5"></span>教学反思</strong></a>
-                    <a href="AdminClass.html" class="a-AdminClass"><strong><span class="icon-n6"></span>班级管理</strong></a>
+                    <a href="reflectIndex.html" class="a-reflectIndex"><strong><span
+                            class="icon-n5"></span>教学反思</strong></a>
+                    <a href="AdminClass.html" class="a-AdminClass"><strong><span
+                            class="icon-n6"></span>班级管理</strong></a>
                     <a href="#"><strong><span class="icon-n7"></span>评测报告</strong></a>
                     <a href="#"><strong><span class="icon-n8"></span>课程培训</strong></a>
                 </div>
@@ -50,9 +53,11 @@
         <div class="col-md-9">
             <div class="index-conright">
                 <div class="contmykb bg-white">
-                    <h3><span class="icon-kb"></span>课程表</h3>
+                    <h3><span class="icon-kb"></span>课程表
+                        <a><strong>∨</strong> 展开</a>
+                    </h3>
 
-                    <div class="contmykb-cont">
+                    <div class="contmykb-cont hide">
                         <table cellpadding="0" cellspacing="0">
                             <tr>
                                 <th class="w80">2月<span>第一周</span></th>
@@ -127,62 +132,48 @@
                 </div>
 
                 <div class="contmykc bg-white">
-                    <h3><span class="icon-kc"></span>我的课程</h3>
+
+
+                    <div class="courseGL-tab">
+                        <ul>
+                            <li><a href="" class="active">小班</a></li>
+                            <li><a href="">中班</a></li>
+                            <li><a href="">大班</a></li>
+                            <li><a href="">托儿</a></li>
+                            <li><a href="">其他</a></li>
+                        </ul>
+                    </div>
 
                     <div class="contmykc-cont">
                         <div class="contmykc-btn-box contmykc-btn">
-                            <a href="#" class="btn-bg454e5d btn-l">小一班</a>
-                            <a href="#" class="btn-bgff4f3f btn-l pull-right">添加课程</a>
+                            <a href="courseGLBJ.html" class="btn-bgff4f3f btn-s pull-right">编辑</a>
                         </div>
                         <div class="contmykc-slider bg-white">
-                            <span class="mykciconleft"></span>
-                            <span class="mykciconright"></span>
+                            <!--<span class="mykciconleft"></span>-->
+                            <!--<span class="mykciconright"></span>-->
 
-                            <div class="row contmykc-courselist">
+                            <div class="row contmykc-courselist coursrGL">
                                 <div class="col-sm-3 contmykc-courseitem">
-                                    <a href="#"><img src="image/index-2.png" alt=""/></a>
+                                    <a href="courseGLInfo.html"><img src="image/index-2.png" alt=""/></a>
 
                                     <p>课程名称：<strong>看图识字</strong></p>
 
-                                    <p>科目：<strong>思维</strong></p>
+                                    <p>适用：<strong>中</strong> <strong>小班</strong></p>
 
-                                    <div>
-                                        <span class="icon-sp"></span><strong>视频</strong>
-                                        <span class="icon-zy"></span><strong>作业</strong>
-                                        <span class="icon-wj"></span><strong>文件</strong>
+                                    <div class="contmykc-btn">
+                                        <a href="" class="btn-bgff4f3f btn-l btn-ksbk">开始备课</a>
                                     </div>
                                 </div>
-                                <div class="col-sm-3 contmykc-courseitem">
-                                    <a href="#"><img src="image/index-2.png" alt=""/></a>
 
-                                    <p>课程名称：<strong>看图识字</strong></p>
 
-                                    <p>科目：<strong>思维</strong></p>
-
-                                    <div>
-                                        <span class="icon-wbk"></span><strong>未备课</strong>
-
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 contmykc-courseitem">
-                                    <a href="#"></a>
-
-                                    <p>课程名称：<strong>看图识字</strong></p>
-
-                                    <p>科目：<strong>思维</strong></p>
-
-                                </div>
-                                <div class="col-sm-3 contmykc-courseitem">
-                                    <a href="#"></a>
-
-                                    <p>课程名称：<strong>看图识字</strong></p>
-
-                                    <p>科目：<strong>思维</strong></p>
-
-                                </div>
                             </div>
-                            <div class="contmykc-morebtn">
-                                <a href="#">&lt;查看全部&gt;</a>
+
+                            <div class="contmykc-pagenumber text-center">
+                                <a href="#">&lt;</a> <a class="active" href="">1</a> <a href="">2</a> <a href="">3</a> <a
+                                    href="">4</a> <a href="">5</a>... <a href="">99</a> <a href="">&gt;</a>
+                                共99页 &nbsp;&nbsp;&nbsp;&nbsp; 跳转到
+                                <input type="text"/>
+                                <a class="active" href="">GO</a>
                             </div>
                         </div>
                     </div>
