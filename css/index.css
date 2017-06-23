@@ -310,6 +310,7 @@
 }
 
 .GLInfo-contimg{
+    position: relative;
     border: 1px solid #fff;
     box-shadow: 0 0 2px #ffe8ef;
     padding: 10px;
@@ -329,7 +330,7 @@
 }
 
 .GLInfo-contimg-rt{
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 .GLInfo-title{
@@ -388,4 +389,36 @@
     height: 22px;
     background: url("../image/icon-ks.png") no-repeat 0 0;
     margin-right: 18px;
+}
+
+/*courseGLWDKC我的课程*/
+.courseGLWDKC-content{
+    padding: 25px;
+}
+
+.courseGLWDKC-content .reflect-nav{
+    padding: 0;
+}
+
+.courseGLWDKC-content select{
+    width: 130px;
+    height: 28px;
+    border: 1px solid #e3e3e3;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.courseGLWDKC-contimg{
+    width: 1060px;
+    border: 5px solid #999;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.courseGLWDKC-contimg img {
+    display: block;
+    width: 1050px;
+}
+
+.contmykc-btn >div> a{
+    margin-right: 30px;
 }
