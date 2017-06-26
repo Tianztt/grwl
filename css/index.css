@@ -22,7 +22,7 @@
     color: #ccc;
 }
 
-.contmykb-cont, .contmykc-cont, .courseGL-tab ,.GLInfo-content{
+.contmykb-cont, .contmykc-cont, .courseGL-tab, .GLInfo-content {
     border-top: 1px solid #f2f2f2;
 }
 
@@ -235,7 +235,7 @@
 
 /*index结束*/
 
-/*coureseGLBJ开始*/
+/*coureseGL开始*/
 .courseGL-tab {
     height: 60px;
     line-height: 60px;
@@ -258,7 +258,7 @@
 .courseGL-tab ul li a.active, .courseGL-tab ul li a:hover {
     display: inline-block;
     width: 100px;
-    height: 56px;
+    height: 60px;
     color: #ff4f3f;
     border-bottom: 4px solid #ff4f3f;
 }
@@ -296,7 +296,7 @@
 }
 
 /*courseGLInfo*/
-.reflect-nav{
+.reflect-nav {
     height: 60px;
     line-height: 60px;
     padding: 0 25px;
@@ -306,34 +306,34 @@
 }
 
 .courseGLInfo-content {
-    padding:10px 25px 0 25px;
+    padding: 10px 25px 0 25px;
 }
 
-.GLInfo-contimg{
+.GLInfo-contimg {
     position: relative;
     border: 1px solid #fff;
     box-shadow: 0 0 2px #ffe8ef;
     padding: 10px;
 }
 
-.GLInfo-contimg div{
+.GLInfo-contimg div {
     padding-left: 0;
     padding-right: 0;
 }
 
-.GLInfo-contimg-left img{
+.GLInfo-contimg-left img {
     width: 490px;
 }
 
-.GLInfo-contimg-right div img{
+.GLInfo-contimg-right div img {
     width: 262px;
 }
 
-.GLInfo-contimg-rt{
+.GLInfo-contimg-rt {
     margin-bottom: 42px;
 }
 
-.GLInfo-title{
+.GLInfo-title {
     height: 60px;
     line-height: 60px;
     padding: 0 50px;
@@ -341,16 +341,16 @@
     font-size: 18px;
 }
 
-.GLInfo-title a{
+.GLInfo-title a {
     color: #ccc;
     font-size: 16px;
 }
 
-.GLInfo-title a strong{
+.GLInfo-title a strong {
     font-size: 20px;
 }
 
-.GLInfo-title span{
+.GLInfo-title span {
     display: inline-block;
     width: 5px;
     height: 25px;
@@ -359,30 +359,30 @@
     margin-right: 10px;
 }
 
-.GLInfo-content{
+.GLInfo-content {
     padding: 30px 50px;
     line-height: 30px;
     font-size: 16px;
 }
 
-.GLInfo-content span{
+.GLInfo-content span {
     display: inline-block;
     float: left;
     width: 80px;
     color: #999;
 }
 
-.GLInfo-content strong{
+.GLInfo-content strong {
     display: inline-block;
     width: 638px;
 }
 
-.btn-kssk{
+.btn-kssk {
     width: 140px;
     margin-left: 30px;
 }
 
-.btn-kssk i{
+.btn-kssk i {
     display: inline-block;
     vertical-align: middle;
     width: 22px;
@@ -392,15 +392,15 @@
 }
 
 /*courseGLWDKC我的课程*/
-.courseGLWDKC-content{
+.courseGLWDKC-content {
     padding: 25px;
 }
 
-.courseGLWDKC-content .reflect-nav{
+.courseGLWDKC-content .reflect-nav {
     padding: 0;
 }
 
-.courseGLWDKC-content select{
+.courseGLWDKC-content select {
     width: 130px;
     height: 28px;
     border: 1px solid #e3e3e3;
@@ -408,25 +408,128 @@
     color: #4c4c4c;
 }
 
-.courseGLWDKC-contimg{
+.courseGLWDKC-contimg {
     width: 1060px;
     border: 5px solid #999;
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
 .courseGLWDKC-contimg img {
     display: block;
     width: 1050px;
 }
 
-.contmykc-btn >div> a{
+.contmykc-btn > div > a {
     margin-right: 30px;
 }
 
 /*Lesson备课*/
+.lessonclass-nav, .lessonsubject-nav {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
 
+.lessonclass-nav ul, .lessonsubject-nav ul {
+    float: left;
+}
 
-.btn-ksbk{
+.red-line {
+    border-bottom: 1px solid #ff4f3f;
+}
+
+.lessonclass-nav ul li, .lessonsubject-nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-right: -6px;
+}
+
+.lessonclass-nav ul li a, .lessonsubject-nav ul li a {
+    font-size: 20px;
+}
+
+.lessonclass-nav ul li a {
+    color: #76c7c0;
+}
+
+.lessonsubject-nav ul li a {
+    color: #ff4f3f;
+}
+
+.lessonclass-nav ul .lessonclass-nav-title {
+    width: 160px;
+}
+
+.lessonclass-nav ul .lessonclass-nav-title, .lessonsubject-nav ul .lessonsubject-nav-title {
+    color: #999;
+    background-color: #454e5d;
+}
+
+.lessonclass-nav ul .active, .lessonsubject-nav ul .active {
+    display: inline-block;
+    width: 100px;
+    color: #fff;
+}
+
+.lessonclass-nav ul .active {
+    background-color: #76c7c0;
+}
+
+.lessonsubject-nav ul .active {
+    background-color: #ff4f3f;
+}
+
+/*课程导航结束*/
+
+.lessonsubject-nav input {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: 2px solid #ff4f3f;
+    padding-left: 5px;
+}
+
+.lessonsubject-nav .search {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ff4f3f;
+    color: #fff;
+    border: none;
+    margin-left: -6px;
+}
+
+.lessonsubject-nav .search:visited, .lessonsubject-nav .search:active {
+    box-shadow: none;
+}
+
+.btn-ksbk {
     width: 180px;
     margin-top: 20px;
+}
+
+/*开始备课*/
+.lessonBK-add div img {
+    width: 130px;
+    height: 90px;
+    display: block;
+}
+
+.btn-close {
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.border-top-none{
+    border-top: none;
 }
