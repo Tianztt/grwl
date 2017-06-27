@@ -78,11 +78,29 @@ strong {
     margin-bottom: 20px;
 }
 
+.ml25{
+    margin-left: 25px;
+}
+
+.mr25{
+    margin-right: 25px;
+}
+
 .pd10{
     padding-bottom: 10px;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
 
+.clearfix {
+    zoom: 1
+}
 /*重写结束*/
 
 /*背景颜色*/

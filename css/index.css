@@ -252,7 +252,8 @@
 }
 
 .courseGL-tab ul li a {
-    color: #999;
+    color: #4c4c4c;
+    font-size: 18px;
 }
 
 .courseGL-tab ul li a.active, .courseGL-tab ul li a:hover {
@@ -263,7 +264,7 @@
     border-bottom: 4px solid #ff4f3f;
 }
 
-.coursrGL .contmykc-courseitem {
+.courseGL .contmykc-courseitem {
     min-height: 280px;
 }
 
@@ -336,7 +337,7 @@
 .GLInfo-title {
     height: 60px;
     line-height: 60px;
-    padding: 0 50px;
+    padding: 0 25px;
     color: #4c4c4c;
     font-size: 18px;
 }
@@ -363,6 +364,10 @@
     padding: 30px 50px;
     line-height: 30px;
     font-size: 16px;
+}
+
+.GLInfo-content div{
+    display: block;
 }
 
 .GLInfo-content span {
@@ -482,7 +487,6 @@
 }
 
 /*课程导航结束*/
-
 .lessonsubject-nav input {
     width: 200px;
     height: 40px;
@@ -532,4 +536,45 @@
 
 .border-top-none{
     border-top: none;
+}
+
+/*备课-添加课程*/
+.contmykc-courselist .active{
+    background: url("../image/Lesson-libg.png") no-repeat 0 0;
+    background-size: 200px 238px;
+}
+
+/*自定义*/
+.lessonSBK-zdy input{
+    width: 520px;
+    height: 40px;
+    margin-bottom: 4px;
+    border: 2px #f2f2f2 solid;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.lessonSBK-zdy a{
+    margin-left: 10px;
+    color: #ff4f3f;
+    font-size: 16px;
+}
+
+/*添加作业*/
+.lessontjkc-zy-a a{
+    color: #ff4f3f;
+}
+
+.lessontjkc-zy-cont{
+    padding: 0 50px;
+    height: 680px;
+}
+
+.lessontjkc-zy-cont h4{
+    font-size: 20px;
+}
+
+.lessontjkc-zy-cont p{
+    color: #999;
+    font-size: 16px;
 }
