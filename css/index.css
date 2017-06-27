@@ -66,6 +66,23 @@
     border-bottom: 1px solid #f2f2f2;
 }
 
+.w165{
+    width: 165px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #f2f2f2;
+}
+.w635{
+    width: 635px;
+    font-size: 16px;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+
+.w635 p{
+    padding: 10px;
+}
+
 .contmykb-cont th {
     height: 55px;
     font-size: 16px;
@@ -417,7 +434,6 @@
     width: 1060px;
     border: 5px solid #999;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
 .courseGLWDKC-contimg img {
@@ -426,7 +442,7 @@
 }
 
 .contmykc-btn > div > a {
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 /*Lesson备课*/
@@ -577,4 +593,58 @@
 .lessontjkc-zy-cont p{
     color: #999;
     font-size: 16px;
+}
+
+.lessontjkc-zy-cont textarea{
+    font-size: 16px;
+}
+
+.lessontjkc-zy-cont p b{
+    color: #ff4f3f;
+}
+
+.lessontjkc-wj{
+    height: 700px;
+    padding: 30px 50px;
+    font-size: 18px;
+}
+
+.lessontjkc-wj input{
+    border: none;
+    background-color: #f2f2f2;
+}
+
+/*教学计划*/
+.plan-selectbox {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.plan-selectbox select{
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    border: 1px solid #e3e3e3;
+    padding-left: 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #999;
+}
+
+.plan-table .plan-title{
+    font-size: 18px;
+}
+
+.plan-table tr a{
+    color: #ff4f3f;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.plantable-addplan{
+    height: 90px;
 }
