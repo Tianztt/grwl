@@ -1,0 +1,109 @@
+.setup-top {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 25px;
+    background-color: #454e5d;
+    color: #fff;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.setup-grsz, .setup-backhome {
+    display: inline-block;
+    background: url("../image/icon-setup.png") no-repeat;
+    margin-right: 10px;
+}
+
+.setup-grsz {
+    width: 23px;
+    height: 23px;
+    margin-bottom: -5px;
+    background-position: 0 -40px;
+}
+
+.setup-backhome {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -8px;
+    background-position: 0 -86px;
+}
+
+.setup-top a {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+}
+
+.setup-cont {
+    padding-top: 80px;
+}
+
+.setup-tab {
+    margin: 0 auto;
+    width: 680px;
+    height: 60px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.setup-tab span {
+    width: 338px;
+    height: 60px;
+    line-height: 60px;
+    padding-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.setup-tab span a {
+    color: #6d6c6c;
+}
+
+.setup-tab .active {
+    width: 340px;
+    height: 73px;
+    display: inline-block;
+    border: none;
+    background: url("../image/icon-tabbg.png") no-repeat 0 bottom;
+}
+
+.setup-tab b {
+    margin-left: -4px;
+    margin-right: -4px;
+    border-left: 1px solid #bfbfbf;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.setup-tabcont {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.setup-tabcont-left, .setup-tabcont-right {
+    width: 340px;
+    padding-top: 35px;
+    display: block;
+}
+
+.setup-tabcont div > div {
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #bfbfbf;
+}
+
+.setup-tabcont div > div > span {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.setup-tabcont div > div input{
+    height: 50px;
+    vertical-align: top;
+    border: none;
+}
