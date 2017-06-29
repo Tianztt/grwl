@@ -43,11 +43,11 @@
     margin-bottom: 10px;
 }
 
-.contmykb-cont {
+.contmykb-cont,.plan-daily-table {
     padding: 20px 20px 30px;
 }
 
-.contmykb-cont table {
+.contmykb-cont table{
     width: 100%;
     border: 5px solid #f2f2f2;
     border-radius: 5px;
@@ -72,6 +72,7 @@
     font-weight: bold;
     border-bottom: 1px solid #f2f2f2;
 }
+
 .w635{
     width: 635px;
     font-size: 16px;
@@ -83,7 +84,7 @@
     padding: 10px;
 }
 
-.contmykb-cont th {
+.contmykb-cont th ,.plan-daily-table th{
     height: 55px;
     font-size: 16px;
     text-align: center;
@@ -98,26 +99,26 @@
     display: block;
 }
 
-.contmykb-cont tr td:first-child {
+.contmykb-cont tr td:first-child ,.plan-daily-table tr td:first-child{
     padding: 0;
     text-align: center;
     cursor: default;
 }
 
-.contmykb-cont td {
+.contmykb-cont td ,.plan-daily-table td{
     padding: 5px 0 5px 15px;
 }
 
-.contmykb-cont td span {
+.contmykb-cont td span ,.plan-daily-table td span{
     color: #999;
 }
 
-.contmykb-cont td strong {
+.contmykb-cont td strong ,.plan-daily-table td strong{
     display: block;
     font-weight: bold;
 }
 
-.contmykb-cont th {
+.contmykb-cont th,.plan-daily-table th {
     border-bottom: 1px solid #f2f2f2;
 }
 
@@ -647,4 +648,11 @@
 
 .plantable-addplan{
     height: 90px;
+}
+
+.plan-daily-table table{
+    width: 100%;
+    border-collapse: inherit;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
 }

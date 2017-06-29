@@ -1,3 +1,4 @@
+/*setup*/
 .setup-top {
     width: 100%;
     height: 70px;
@@ -9,16 +10,19 @@
     vertical-align: middle;
 }
 
-.setup-grsz, .setup-backhome {
+.setup-grsz, .setup-backhome ,.personalInfo-grxx,.personalInfo-bj{
     display: inline-block;
     background: url("../image/icon-setup.png") no-repeat;
     margin-right: 10px;
 }
 
-.setup-grsz {
+.setup-grsz ,.personalInfo-grxx{
     width: 23px;
     height: 23px;
     margin-bottom: -5px;
+}
+
+.setup-grsz{
     background-position: 0 -40px;
 }
 
@@ -85,7 +89,7 @@
 
 .setup-tabcont-left, .setup-tabcont-right {
     width: 340px;
-    padding-top: 35px;
+    padding: 35px 0;
     display: block;
 }
 
@@ -103,7 +107,84 @@
 }
 
 .setup-tabcont div > div input{
-    height: 50px;
+    height: 48px;
     vertical-align: top;
     border: none;
+}
+
+.setup-tabcont-right div a{
+    width: 110px;
+    height: 50px;
+    display: inline-block;
+    background-color: #c9c9c9;
+    color: #fff;
+    margin-top: -1px;
+}
+
+.setup-btncont a{
+    display: inline-block;
+    margin: 50px;
+}
+
+.btn-bgb3b3b3{
+    background-color: #b3b3b3;
+    border-bottom: 2px solid #8f8f8f;
+}
+
+/*personalInfo*/
+.personalInfo-grxx{
+    background-position: 0 -63px;
+}
+
+.personalInfo-cont{
+    padding-top: 30px;
+}
+
+.personalInfo-bj-btn{
+    padding: 0 60px;
+}
+
+.personalInfo-cont  .personalInfo-bj-btn a{
+    display: block;
+    font-size: 16px;
+    color: #808080;
+}
+
+.personalInfo-bj{
+    width: 20px;
+    height: 20px;
+    background-position: 0 -20px;
+   margin-bottom: -2px;
+}
+
+.personalInfo-left{
+    height: 330px;
+    border-right: 1px solid #cfcfcf;
+}
+
+.personalInfo-img{
+    width: 132px;
+    height: 132px;
+    margin: 40px auto;
+}
+
+.personalInfo-img img{
+    width: 132px;
+    height: 132px;
+    display: block;
+    border-radius: 50%;
+}
+
+.personalInfo-right{
+    padding: 30px 0 0 130px;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.personalInfo-right div span{
+    color: #4c4c4c;
+}
+
+.personalInfo-right strong{
+    color: #808080;
 }
