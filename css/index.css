@@ -272,6 +272,25 @@
 .courseGL-tab ul li a {
     color: #4c4c4c;
     font-size: 18px;
+    display: inline-block;
+    width: 100px;
+}
+
+.news-liuyan {
+    position: relative;
+}
+
+.news-liuyan span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top:6px;
+    right: -20px;
+    background-color: #ff4f3f;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
 }
 
 .courseGL-tab ul li a.active, .courseGL-tab ul li a:hover {
@@ -650,9 +669,45 @@
     height: 90px;
 }
 
+.daily-table-border {
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
 .plan-daily-table table{
     width: 100%;
     border-collapse: inherit;
-    border-radius: 5px;
-    border: 2px solid #f2f2f2;
 }
+
+.plan-daily-table ul{
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 2px solid #ff4f3f;
+}
+
+.plan-daily-table ul li{
+    float: left;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plan-daily-table ul li a{
+    width: 130px;
+    display: inline-block;
+}
+
+.plan-daily-table .active{
+    background-color: #ff4f3f;
+    color: #fff;
+}
+
+.plan-daily-table table th{
+    font-weight: normal;
+}
+
+.plan-daily-table table td{
+    font-size: 16px;
+}
+

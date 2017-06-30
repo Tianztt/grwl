@@ -1,0 +1,36 @@
+.news-tab ul li,.news-tab ul li a{
+    width: 120px;
+}
+
+.news-tab ul li a.active, .news-tab ul li a:hover {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    color: #ff4f3f;
+    border-bottom: 4px solid #ff4f3f;
+}
+
+.icon-jztz{
+    width: 12px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 4px;
+    background: url("../image/icon-news-jztz.png") no-repeat 0 0;
+}
+
+.news-liuyan {
+    position: relative;
+}
+
+.news-liuyan span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top:6px;
+    right: -4px;
+    background-color: #ff4f3f;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+}
