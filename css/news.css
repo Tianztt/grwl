@@ -1,4 +1,4 @@
-.news-tab ul li,.news-tab ul li a{
+.news-tab ul li, .news-tab ul li a {
     width: 120px;
 }
 
@@ -10,7 +10,7 @@
     border-bottom: 4px solid #ff4f3f;
 }
 
-.icon-jztz{
+.icon-jztz {
     width: 12px;
     height: 14px;
     display: inline-block;
@@ -22,15 +22,48 @@
     position: relative;
 }
 
-.news-liuyan span{
+.news-liuyan span {
     width: 20px;
     height: 20px;
     line-height: 20px;
     position: absolute;
-    top:6px;
+    top: 6px;
     right: -4px;
     background-color: #ff4f3f;
     border-radius: 50%;
     display: block;
     color: #fff;
+}
+
+.news-item {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 0;
+}
+
+.news-item .news-item-bg{
+    padding: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+    line-height: 38px;
+    color: #999;
+}
+
+.news-text>p {
+    width: 100%;
+    font-size: 16px;
+    color: #4c4c4c;
+    text-indent: 2em;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+}
+
+.news-item .active{
+    background-color: #fafafa;
+    border-radius: 3px;
 }
