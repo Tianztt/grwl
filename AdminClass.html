@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>备课-添加教材-视频</title>
+    <title>班级管理首页</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css"/>
 </head>
-<body id="Lesson" class="bg-color">
+<body id="AdminClass" class="bg-color">
 <header class="bg-white index-header">
     <div class="container">
         <a href="index.html" class="icon-logo">教师版</a>
@@ -52,50 +52,73 @@
 
         <div class="col-md-9">
             <div class="index-conright">
-                <div class="reflect-nav bg-white mb20">
-                    <a href="Lesson.html">备课</a> &gt;
-                    <a href="LessonStartBK.html">开始备课</a>&gt;
-                    <a href="#">添加</a>
-                </div>
-
-                <div class="lesson-content bg-white">
-
-                    <div class="courseGL-tab">
-                        <ul>
-                            <li><a href="LessonTJJC(sp).html">视频</a></li>
-                            <li><a href="LessonTJJC(zy).html" class="active">作业</a></li>
-                            <li><a href="LessonTJJC(wj).html">+我的文件</a></li>
-                        </ul>
-                        <div class="contmykc-btn fr mr25">
-                            <a href="LessonStartBK.html" class="btn-bgff4f3f btn-l">添加完成</a>
-                        </div>
+                <div class="contmykb bg-white">
+                    <div class="reflect-nav">
+                        <a href="AdminClass.html">班级管理</a>
                     </div>
 
-                    <div class="contmykc-cont clearfix">
-                        <div class="clearfix"></div>
-                        <div class="GLInfo-title lessontjkc-zy-a">
-                            <span class=""></span>作业
-                            <a class="pull-right">编辑</a>
+                    <div class="bg-white border-top-1">
+                        <div class="lessonsubject-nav red-line mt10">
+                            <ul>
+                                <li class="lessonsubject-nav-title">年级</li>
+                                <li><a href="" class="active">大班</a></li>
+                                <li><a href="">中班</a></li>
+                                <li><a href="">小班</a></li>
+                                <li><a href="">托儿</a></li>
+                                <li><a href="">其他</a></li>
+                            </ul>
                         </div>
-                        <div class="lessontjkc-zy-cont">
-                            <h4 class="mb20">爸爸妈妈一起做</h4>
-                            <textarea name="ZYmeesage" id="ZYmessage" class="form-control" rows="10" placeholder="例：和爸爸妈妈一起做一件事，比如做家务"></textarea>
-                            <p class="pull-right">最多不超过<b>150</b>个字符</p>
-                            <div class="clearfix pd10"></div>
-                            <div class="contmykc-btn clearfix">
-                                <div class="pull-right">
-                                    <a href="LessonTJJC(zy).html" class="btn-bgff4f3f btn-l">保存</a>
-                                    <a href="" class="btn-bgff4f3f btn-l">取消</a>
+                        <div class="courseGL-tab border-bottom-1 mb20">
+                            <ul>
+                                <li><a href="" class="active">1班</a></li>
+                                <li><a href="">2班</a></li>
+                                <li><a href="">3班</a></li>
+                                <li><a href="">4班</a></li>
+                                <li><a href="">5班</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="contmykc-btn-box contmykc-btn">
+                            <a class="btn-bgff4f3f btn-l btn-dm" href="">点名</a>
+                        </div>
+
+                        <div class="contmykc-btn-box contmykc-btn class-dm-from">
+                            <from>
+                                幼儿姓名：<input type="text"/>
+                                性别：<select name="" id="">
+                                <option value="请选择">请选择</option>
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                            </from>
+                            <a href="" class="btn-bgff4f3f btn-s">查询</a>
+                            <span class="pull-right">
+                                <a href="" class="btn-bgff4f3f btn-s btn-dm-dr">一键导入</a>
+                                <a href="" class="btn-bgff4f3f btn-s btn-dm-dr">添加幼儿</a>
+                            </span>
+
+
+                        </div>
+                        <!--课程列表-->
+                        <div class="pd10">
+                            <div class="contmykc-slider bg-white">
+
+
+                                <div class="contmykc-pagenumber text-center">
+                                    <a href="#">&lt;</a> <a class="active" href="">1</a> <a href="">2</a> <a
+                                        href="">3</a> <a
+                                        href="">4</a> <a href="">5</a>... <a href="">99</a> <a href="">&gt;</a>
+                                    共99页 &nbsp;&nbsp;&nbsp;&nbsp; 跳转到
+                                    <input type="text"/>
+                                    <a class="active" href="">GO</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
 </div>
 
 <footer class="index-footer">

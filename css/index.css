@@ -22,7 +22,7 @@
     color: #ccc;
 }
 
-.contmykb-cont, .contmykc-cont, .courseGL-tab, .GLInfo-content {
+.border-top-1{
     border-top: 1px solid #f2f2f2;
 }
 
@@ -55,29 +55,31 @@
 }
 
 /*表格宽度及内边框*/
+.w80, .w135, .w165, .w635,.contmykb-cont th ,.plan-daily-table th, .border-bottom-1{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.w135, .w635{
+    border-left: 1px solid #f2f2f2;
+}
+
 .w80 {
     width: 80px;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .w135 {
     width: 135px;
-    border-left: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .w165{
     width: 165px;
     font-size: 16px;
     font-weight: bold;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .w635{
     width: 635px;
     font-size: 16px;
-    border-bottom: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
 }
 
 .w635 p{
@@ -88,7 +90,6 @@
     height: 55px;
     font-size: 16px;
     text-align: center;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .contmykb-cont th.active {
@@ -116,10 +117,6 @@
 .contmykb-cont td strong ,.plan-daily-table td strong{
     display: block;
     font-weight: bold;
-}
-
-.contmykb-cont th,.plan-daily-table th {
-    border-bottom: 1px solid #f2f2f2;
 }
 
 /*我的课程*/
@@ -338,7 +335,6 @@
     height: 60px;
     line-height: 60px;
     padding: 0 25px;
-    margin-bottom: 20px;
     font-size: 20px;
     color: #4c4c4c;
 }
@@ -551,6 +547,7 @@
 .btn-ksbk {
     width: 180px;
     margin-top: 20px;
+    border-radius: 3px;
 }
 
 /*开始备课*/
@@ -711,3 +708,70 @@
     font-size: 16px;
 }
 
+.btn-bg76c7c0{
+    background-color: #76c7c0;
+    border-bottom: 2px solid #469c94;
+}
+
+/*reflectCK*/
+.reflect-container{
+    height: 800px;
+}
+.reflect-content{
+    padding: 25px;
+}
+.reflect-content h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.reflect-content p{
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 2em;
+}
+
+.reflect-bj-btn{
+    padding: 0 25px;
+}
+
+.reflect-bj-btn a{
+    color: #ff4f3f;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+
+}
+
+.reflect-bj-icon{
+    background:url("../image/icon-edit.png") no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+/*AdminClass*/
+.btn-dm{
+    width: 140px;
+}
+
+.class-dm-from{
+    font-size: 16px;
+    color: #999;
+}
+
+.class-dm-from input,.class-dm-from select{
+    width: 140px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+    margin-right: 10px;
+}
+
+.btn-dm-dr{
+    width: 100px;
+    margin-left: 10px;
+}

@@ -1,45 +1,45 @@
-.clear-padding{
+.clear-padding {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.help-left-top{
+.help-left-top {
     height: 455px;
     line-height: 455px;
     text-align: center;
     font-size: 35px;
-    vertical-align: middle;
     border-right: 1px solid #ccc;
 }
 
-.icon-help-organ,.icon-help-nav{
+.icon-help-organ, .icon-help-nav {
     background: url("../image/icon-help.png") no-repeat;
     display: inline-block;
     vertical-align: middle;
 }
 
-.icon-help-organ{
+.icon-help-organ {
     width: 42px;
     height: 42px;
     background-position: 0 -50px;
 }
 
-.help-left-nav{
+.help-left-nav {
     border-left: 1px solid #ccc;
 }
 
-.help-left-nav li{
+.help-left-nav a {
     position: relative;
     height: 90px;
     line-height: 90px;
     display: block;
     font-size: 30px;
     text-align: center;
+    color: #4c4c4c;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
 
-.icon-help-nav{
+.icon-help-nav {
     width: 18px;
     height: 28px;
     background-position: 0 0;
@@ -48,15 +48,33 @@
     right: 20px;
 }
 
-.help-left-nav .active{
+.help-left-nav .active {
     background-color: #ff4f3f;
-    border-right:1px solid #ff4f3f;
+    border-right: 1px solid #ff4f3f;
 }
 
-.help-left-nav .active a{
+.help-left-nav .active {
     color: #fff;
 }
 
-.help-left-nav .active .icon-help-nav{
+.help-left-nav .active .icon-help-nav {
     background-position: 0 -25px;
+}
+
+.help-left-nav a:hover {
+    color: #ff4f3f;
+}
+
+.help-left-nav > .active:hover {
+    color: #fff;
+}
+
+.help-img-cont{
+    margin: 20px auto;
+}
+
+.help-right-content{
+    border-top: 1px solid #ccc;
+    padding: 40px;
+    font-size: 20px;
 }
