@@ -22,7 +22,7 @@
     color: #ccc;
 }
 
-.border-top-1{
+.border-top-1 {
     border-top: 1px solid #f2f2f2;
 }
 
@@ -43,11 +43,11 @@
     margin-bottom: 10px;
 }
 
-.contmykb-cont,.plan-daily-table {
+.contmykb-cont, .plan-daily-table {
     padding: 20px 20px 30px;
 }
 
-.contmykb-cont table{
+.contmykb-cont table {
     width: 100%;
     border: 5px solid #f2f2f2;
     border-radius: 5px;
@@ -55,11 +55,11 @@
 }
 
 /*表格宽度及内边框*/
-.w80, .w135, .w165, .w635,.contmykb-cont th ,.plan-daily-table th, .border-bottom-1{
+.w80, .w135, .w165, .w635, .contmykb-cont th, .plan-daily-table th, .border-bottom-1 {
     border-bottom: 1px solid #f2f2f2;
 }
 
-.w135, .w635{
+.w135, .w635 {
     border-left: 1px solid #f2f2f2;
 }
 
@@ -71,22 +71,22 @@
     width: 135px;
 }
 
-.w165{
+.w165 {
     width: 165px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.w635{
+.w635 {
     width: 635px;
     font-size: 16px;
 }
 
-.w635 p{
+.w635 p {
     padding: 10px;
 }
 
-.contmykb-cont th ,.plan-daily-table th{
+.contmykb-cont th, .plan-daily-table th {
     height: 55px;
     font-size: 16px;
     text-align: center;
@@ -100,21 +100,21 @@
     display: block;
 }
 
-.contmykb-cont tr td:first-child ,.plan-daily-table tr td:first-child{
+.contmykb-cont tr td:first-child, .plan-daily-table tr td:first-child {
     padding: 0;
     text-align: center;
     cursor: default;
 }
 
-.contmykb-cont td ,.plan-daily-table td{
+.contmykb-cont td, .plan-daily-table td {
     padding: 5px 0 5px 15px;
 }
 
-.contmykb-cont td span ,.plan-daily-table td span{
+.contmykb-cont td span, .plan-daily-table td span {
     color: #999;
 }
 
-.contmykb-cont td strong ,.plan-daily-table td strong{
+.contmykb-cont td strong, .plan-daily-table td strong {
     display: block;
     font-weight: bold;
 }
@@ -277,12 +277,12 @@
     position: relative;
 }
 
-.news-liuyan span{
+.news-liuyan span {
     width: 20px;
     height: 20px;
     line-height: 20px;
     position: absolute;
-    top:6px;
+    top: 6px;
     right: -20px;
     background-color: #ff4f3f;
     border-radius: 50%;
@@ -399,7 +399,7 @@
     font-size: 16px;
 }
 
-.GLInfo-content div{
+.GLInfo-content div {
     display: block;
 }
 
@@ -567,18 +567,18 @@
     right: 10px;
 }
 
-.border-top-none{
+.border-top-none {
     border-top: none;
 }
 
 /*备课-添加课程*/
-.contmykc-courselist .active{
+.contmykc-courselist .active {
     background: url("../image/Lesson-libg.png") no-repeat 0 0;
     background-size: 200px 238px;
 }
 
 /*自定义*/
-.lessonSBK-zdy input{
+.lessonSBK-zdy input {
     width: 520px;
     height: 40px;
     margin-bottom: 4px;
@@ -587,46 +587,46 @@
     padding-left: 5px;
 }
 
-.lessonSBK-zdy a{
+.lessonSBK-zdy a {
     margin-left: 10px;
     color: #ff4f3f;
     font-size: 16px;
 }
 
 /*添加作业*/
-.lessontjkc-zy-a a{
+.lessontjkc-zy-a a {
     color: #ff4f3f;
 }
 
-.lessontjkc-zy-cont{
+.lessontjkc-zy-cont {
     padding: 0 50px;
     height: 680px;
 }
 
-.lessontjkc-zy-cont h4{
+.lessontjkc-zy-cont h4 {
     font-size: 20px;
 }
 
-.lessontjkc-zy-cont p{
+.lessontjkc-zy-cont p {
     color: #999;
     font-size: 16px;
 }
 
-.lessontjkc-zy-cont textarea{
+.lessontjkc-zy-cont textarea {
     font-size: 16px;
 }
 
-.lessontjkc-zy-cont p b{
+.lessontjkc-zy-cont p b {
     color: #ff4f3f;
 }
 
-.lessontjkc-wj{
+.lessontjkc-wj {
     height: 700px;
     padding: 30px 50px;
     font-size: 18px;
 }
 
-.lessontjkc-wj input{
+.lessontjkc-wj input {
     border: none;
     background-color: #f2f2f2;
 }
@@ -638,7 +638,7 @@
     border-bottom: 1px dashed #e3e3e3;
 }
 
-.plan-selectbox select{
+.plan-selectbox select {
     width: 130px;
     height: 32px;
     line-height: 32px;
@@ -650,11 +650,11 @@
     color: #999;
 }
 
-.plan-table .plan-title{
+.plan-table .plan-title {
     font-size: 18px;
 }
 
-.plan-table tr a{
+.plan-table tr a {
     color: #ff4f3f;
     font-size: 16px;
     text-align: center;
@@ -662,7 +662,7 @@
     margin: 0 10px;
 }
 
-.plantable-addplan{
+.plantable-addplan {
     height: 90px;
 }
 
@@ -671,18 +671,18 @@
     border-radius: 5px;
 }
 
-.plan-daily-table table{
+.plan-daily-table table {
     width: 100%;
     border-collapse: inherit;
 }
 
-.plan-daily-table ul{
+.plan-daily-table ul {
     height: 55px;
     line-height: 55px;
     border-bottom: 2px solid #ff4f3f;
 }
 
-.plan-daily-table ul li{
+.plan-daily-table ul li {
     float: left;
     width: 130px;
     font-size: 18px;
@@ -690,53 +690,55 @@
     text-align: center;
 }
 
-.plan-daily-table ul li a{
+.plan-daily-table ul li a {
     width: 130px;
     display: inline-block;
 }
 
-.plan-daily-table .active{
+.plan-daily-table .active {
     background-color: #ff4f3f;
     color: #fff;
 }
 
-.plan-daily-table table th{
+.plan-daily-table table th {
     font-weight: normal;
 }
 
-.plan-daily-table table td{
+.plan-daily-table table td {
     font-size: 16px;
 }
 
-.btn-bg76c7c0{
+.btn-bg76c7c0 {
     background-color: #76c7c0;
     border-bottom: 2px solid #469c94;
 }
 
 /*reflectCK*/
-.reflect-container{
+.reflect-container , .classDM-dm ,.height-800{
     height: 800px;
 }
-.reflect-content{
+
+.reflect-content {
     padding: 25px;
 }
-.reflect-content h4{
+
+.reflect-content h4 {
     font-size: 18px;
     font-weight: bold;
     color: #4c4c4c;
 }
 
-.reflect-content p{
+.reflect-content p {
     font-size: 16px;
     line-height: 26px;
     text-indent: 2em;
 }
 
-.reflect-bj-btn{
+.reflect-bj-btn {
     padding: 0 25px;
 }
 
-.reflect-bj-btn a{
+.reflect-bj-btn a {
     color: #ff4f3f;
     font-size: 16px;
     height: 60px;
@@ -744,8 +746,8 @@
 
 }
 
-.reflect-bj-icon{
-    background:url("../image/icon-edit.png") no-repeat 0 0;
+.reflect-bj-icon {
+    background: url("../image/icon-edit.png") no-repeat 0 0;
     width: 20px;
     height: 20px;
     vertical-align: middle;
@@ -755,23 +757,128 @@
 }
 
 /*AdminClass*/
-.btn-dm{
+.btn-dm {
     width: 140px;
 }
 
-.class-dm-from{
+.class-dm-from {
     font-size: 16px;
     color: #999;
+    padding: 20px 25px;
 }
 
-.class-dm-from input,.class-dm-from select{
+.class-dm-from input, .class-dm-from select {
     width: 140px;
     height: 30px;
     border: 1px solid #b3b3b3;
     margin-right: 10px;
 }
 
-.btn-dm-dr{
+.btn-dm-dr {
     width: 100px;
     margin-left: 10px;
+}
+
+.table-dm tbody tr th, .table-dm tbody tr td {
+    font-size: 18px;
+    height: 45px;
+}
+
+.table-responsive .table-dm > tbody > .even {
+    background-color: #f2f2f2;
+}
+
+.table-responsive .table-dm > tbody > tr>th,.table-responsive .table-dm > tbody > tr>td{
+    text-align: center;
+}
+
+.table-responsive .table-hover > tbody > tr:hover{
+    background-color: #fed4d0;
+}
+
+.table-responsive .table-hover > tbody > .even:hover{
+    background-color: #f2f2f2;
+}
+
+.class-icon1, .class-icon2, .class-icon3,.class-icon3-r,.class-icon1-r{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.class-icon1, .class-icon2, .class-icon3,.class-icon3-r {
+    background: url("../image/icon-class.png") no-repeat;
+}
+
+.class-icon1 {
+    background-position: 0 -40px;
+}
+
+.class-icon2 {
+    background-position: 0 -60px;
+}
+
+.class-icon3 {
+    background-position: 0 0;
+}
+
+.class-icon3-r{
+    background-position: 0 -20px;
+}
+
+.class-icon1-r{
+    background: url("../image/icon-class6.png") no-repeat 0 0;
+}
+
+/*classDM*/
+
+.classDM-dm p{
+    font-size: 18px;
+    color: #999;
+}
+
+.classDM-dm form{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.classDM-dm form label{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #999;
+}
+
+.classDM-dm form input{
+    margin-right: 10px;
+}
+
+.border-dashed{
+    margin:0 20px 20px;
+    border-top: 1px dashed #ccc;
+}
+
+.class-icon-tj1,.class-icon-tj2,.class-icon-tj3{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url("../image/icon-tj.png") no-repeat;
+}
+
+.class-icon-tj1{
+     background-position: 0 bottom;
+ }
+
+.class-icon-tj2{
+    background-position: 0 -18px;
+}
+
+.class-icon-tj3{
+    background-position: 0 0;
+}
+
+.classdm-tjimg-cont img{
+    width:  100%;
 }
