@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>班级管理-点名-当月统计</title>
+    <title>班级管理-添加幼儿</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css"/>
@@ -55,41 +55,61 @@
                 <div class="contmykb bg-white">
                     <div class="reflect-nav">
                         <a href="AdminClass.html">班级管理</a> &gt;
-                        <a href="AdminClass.html">1班</a> &gt;
-                        <a href="AdminClassDM.html">点名</a>&gt;
-                        <a href="AdminClassDYTJ.html">当月统计</a>
+                        <a href="AdminClassTJYE.html">添加幼儿</a>
                     </div>
 
                     <div class="bg-white border-top-1 height-800">
                         <div class="contmykc-btn-box contmykc-btn class-dm-from border-dashed">
                             <from>
-                                <select name="" id="year">
-                                    <option value="2017">2017</option>
-                                    <option value="2016">2016</option>
-                                    <option value="2015">2015</option>
-                                    <option value="2014">2014</option>
-                                </select>年
-                                <select name="" id="mouth">
-                                    <option value="01">01</option>
-                                    <option value="02">02</option>
-                                    <option value="03">03</option>
-                                    <option value="04">04</option>
+                                年级：
+                                <select name="" id="grade">
+                                    <option value="">小班</option>
+                                    <option value="">中班</option>
+                                    <option value="">大班</option>
+                                    <option value="">托儿</option>
+                                </select>
+                                班级：
+                                <select name="" id="class">
+                                    <option value="01">1班</option>
+                                    <option value="02">2班</option>
+                                    <option value="03">3班</option>
+                                    <option value="04">4班</option>
                                 </select>月
                             </from>
-                            <a href="" class="btn-bgff4f3f btn-s">查询</a>
                         </div>
                         <!--学生名单-->
-                        <div class="courseGLWDKC-content">
-                            <div class="pull-right">
-                                <a href="" class="class-icon-tj1"></a>
-                                <a href="" class="class-icon-tj2"></a>
-                                <a href="" class="class-icon-tj3"></a>
-                            </div>
-
-                            <div>
-                                <img src="image/icon-tjimg.png" alt=""/>
+                        <div class="courseGL-tab border-top-none ml25 mr25">
+                            <ul>
+                                <li><a href="AdminClassTJYE.html" class="active">单一添加</a></li>
+                                <li><a href="AdminClassPLTJ.html">批量添加</a></li>
+                            </ul>
+                        </div>
+                        <div class="border-top-1 ml25 mr25">
+                            <div class="col-md-12 class-tjye-cont">
+                                <div class="col-md-7 class-tjye-left">
+                                    <div>幼儿姓名：<input type="text" placeholder="请输入幼儿的真实姓名"/><span>*</span></div>
+                                    <div>出身年月：<input type="text"/><span>*</span></div>
+                                    <div>性别：
+                                        <label for="">
+                                            <input type="radio"/>男
+                                        </label>
+                                        <label for="">
+                                            <input type="radio"/>女
+                                        </label>
+                                    </div>
+                                    <div>爸爸：<input type="text" placeholder="请输入家长姓名"/><span>*</span></div>
+                                    <div>电话：<input type="text" placeholder="请输入家长电话"/><span>*</span></div>
+                                    <div>妈妈：<input type="text" placeholder="请输入家长姓名"/><span>*</span></div>
+                                    <div>电话：<input type="text" placeholder="请输入家长电话"/><span>*</span></div>
+                                    <div>家庭住址：<input type="text" placeholder="请输入详细家庭住址"/><span>*</span></div>
+                                </div>
+                                <div class="col-md-5 class-tjye-tx text-center">
+                                    <div class="mb20"><img src="image/icon-tx.png" alt="头像"/></div>
+                                    <a href="#" class="btn-l">更换头像</a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
