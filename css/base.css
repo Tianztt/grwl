@@ -66,31 +66,31 @@ strong {
     font-weight: inherit;
 }
 
-.ft{
+.ft {
     float: left;
 }
 
-.fr{
+.fr {
     float: right;
 }
 
-.mb20{
+.mb20 {
     margin-bottom: 20px;
 }
 
-.mt10{
+.mt10 {
     margin-top: 10px;
 }
 
-.ml25{
+.ml25 {
     margin-left: 25px;
 }
 
-.mr25{
+.mr25 {
     margin-right: 25px;
 }
 
-.pd10{
+.pd10 {
     padding-bottom: 10px;
 }
 
@@ -105,6 +105,23 @@ strong {
 .clearfix {
     zoom: 1
 }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+　　input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #ccc;
+}
+
+　　input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ccc;
+}
+
+　　input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
 /*重写结束*/
 
 /*背景颜色*/

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>班级管理-添加幼儿</title>
+    <title>班级管理-修改幼儿</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css"/>
@@ -55,47 +55,22 @@
                 <div class="contmykb bg-white">
                     <div class="reflect-nav">
                         <a href="AdminClass.html">班级管理</a> &gt;
-                        <a href="AdminClassTJYE.html">添加幼儿</a>
+                        <a href="AdminClassXGYE.html">修改幼儿</a>
                     </div>
 
                     <div class="bg-white border-top-1 height-800">
-                        <div class="contmykc-btn-box contmykc-btn class-dm-from border-dashed">
-                            <from>
-                                年级：
-                                <select name="" id="grade">
-                                    <option value="">小班</option>
-                                    <option value="">中班</option>
-                                    <option value="">大班</option>
-                                    <option value="">托儿</option>
-                                </select>
-                                班级：
-                                <select name="" id="class">
-                                    <option value="01">1班</option>
-                                    <option value="02">2班</option>
-                                    <option value="03">3班</option>
-                                    <option value="04">4班</option>
-                                </select>月
-                            </from>
-                        </div>
-                        <!--添加幼儿tab-->
-                        <div class="courseGL-tab border-top-none ml25 mr25">
-                            <ul>
-                                <li><a href="AdminClassTJYE.html" class="active">单一添加</a></li>
-                                <li><a href="AdminClassPLTJ.html">批量添加</a></li>
-                            </ul>
-                        </div>
 
-                        <div class="border-top-1 ml25 mr25 class-tj-content">
+                        <div class="ml25 mr25 class-tj-content">
                             <!--单一添加-->
                             <div class="col-md-12 class-tjye-cont">
                                 <div class="col-md-7 class-tjye-left">
-                                    <div><span>幼儿姓名：</span><input type="text" placeholder="请输入幼儿的真实姓名"/><b>*</b></div>
-                                    <div><span>出身年月：</span><input type="text"/><b>*</b></div>
+                                    <div><span>幼儿姓名：</span><input type="text" value="六月"/><b>*</b></div>
+                                    <div><span>出身年月：</span><input type="text" value="1999年3月"/><b>*</b></div>
                                     <div><span>性别：</span>
                                         <input class="sex" type="radio" name="sex" id="male">
                                         <label for="male">男</label>
 
-                                        <input class="sex" type="radio" name="sex" id="female"/>
+                                        <input class="sex" type="radio" name="sex" id="female" checked/>
                                         <label for="female">女</label>
                                     </div>
                                     <div><span>爸爸：</span><input type="text" placeholder="请输入家长姓名"/><b>*</b></div>

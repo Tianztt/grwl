@@ -904,7 +904,7 @@
     border-bottom: 1px solid #dadcdf;
 }
 
-.class-grkq-table table tr td:last-child{
+.class-grkq-table table tr td:last-child {
     border-right: 1px solid #dadcdf;
 }
 
@@ -917,21 +917,56 @@
     background-color: #f2f2f2;
 }
 
-.class-grkq-table table tr td .wd{
+.class-grkq-table table tr td .wd {
     color: #ff4f3f;
 }
 
 /*AdminClass-TJYE 添加幼儿*/
-.class-tjye-cont{
+.class-tjye-cont, .class-pltj-cont {
     padding: 20px 0;
+    font-size: 18px;
+    color: #999;
+    line-height: 50px;
 }
 
-.class-tjye-left{
+.class-tjye-left {
     border-right: 1px solid #dadcdf;
     padding-left: -15px;
 }
 
-.class-tjye-tx a{
+.class-tjye-left div span {
+    width: 90px;
+    display: inline-block;
+    text-align: right;
+}
+
+.class-tjye-left input , .class-pltj-cont input {
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.class-tjye-left .sex {
+    width: 20px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.class-tjye-left label,.pltj-cont label {
+    font-weight: normal;
+}
+
+.class-tjye-left b {
+    margin-left: 10px;
+    color: #ff4f3f;
+}
+
+
+.class-tjye-tx div {
+    margin-top: 20px;
+}
+
+.class-tjye-tx a {
     border: 1px solid #dadcdf;
     color: #999;
     display: inline-block;
@@ -940,5 +975,23 @@
     cursor: pointer;
 }
 
+.ml200 {
+    margin-left: 200px;
+}
 
+.pltj-cont strong{
+    font-size: 16px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    width: 85px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
 
+.pltj-cont label{
+    font-size: 14px;
+    color: #ff4f3f;
+}
